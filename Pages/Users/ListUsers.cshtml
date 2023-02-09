@@ -1,0 +1,47 @@
+﻿@page
+@model Meritsios_2._0.Pages.Users.ListUsersModel
+@{
+}
+
+<div class="container">
+    <table class="table">
+
+        <h1 class="toast-header mb-3">Alla användare:</h1>
+
+            @if (Model._users != null && Model._users.Any())
+            {
+            <thead class="table-dark">
+                <tr>
+                    <th>Id</th>
+                    <th>Namn</th>
+                    <th>Email</th>
+                    <th>Stad</th>
+                    <th>Ös</th>
+                </tr>
+            </thead>
+            <tbody>
+                    @foreach (var user in Model._users)
+                    {
+                    <tr>
+                        <td>@user.Id</td>
+                        <td>@user.Name</td>
+                        <td>@user.Email</td>
+                        <td>@user.Location</td>
+                        <td>
+                            <a class="btn btn-secondary">Edit</a>
+                        </td>
+                    </tr>
+                    }
+            </tbody>
+            }
+            else
+            {
+            <p>Inga Användare hittades!</p>
+            }
+        
+    </table>
+    <div class="mb-3">
+        <button class="btn btn-secondary">Lägg till användare</button>
+    </div>
+
+</div>
