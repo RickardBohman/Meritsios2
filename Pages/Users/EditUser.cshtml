@@ -1,0 +1,42 @@
+﻿@page "{id:Guid}"
+@model Meritsios_2._0.Pages.Users.EditUserModel
+@{
+}
+
+<form method="post">
+    <h1>Editera användare</h1>
+    
+    <div class="mb-3">
+        <label class="form-label">Id</label>
+        <input class="form-control" type="text" asp-for="_EditUser.Id" readonly/>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Namn</label>  
+        <input class="form-control" type="text" asp-for="_EditUser.Name"/>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Telefonnummer</label>
+        <input class="form-control" type="text" asp-for="_EditUser.Phone" />
+    </div> 
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input class="form-control" type="email" asp-for="_EditUser.Email" />
+    </div>   
+    <div class="mb-3">
+        <label class="form-label">Skola</label>
+        <input class="form-control" type="text" asp-for="_EditUser.School" />
+    </div> 
+    <div class="mb-3">
+        <label class="form-label">Utbildning</label>
+        <input class="form-control" type="text" asp-for="_EditUser.Education" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Stad</label>
+        <input class="form-control" type="text" asp-for="_EditUser.Location" />
+    </div>
+    <div class="mb-3 d-flex justify-content-between">
+        <button type="submit" class="btn btn-success" asp-page-handler="Update">Uppdatera</button>
+        <button type="submit" class="btn btn-danger" asp-page-handler="Delete">Ta bort</button>
+
+    </div>
+</form>

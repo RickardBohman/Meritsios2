@@ -41,7 +41,7 @@ namespace Meritsios_2._0.Pages.Users
 
             dbContext._Users.Add(userDomainModel);
             dbContext.SaveChanges();
-            return RedirectToPage("/index");
+            return RedirectToPage("/users/ListUsers");
         }
     }
 }

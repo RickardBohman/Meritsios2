@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Cruze\source\repos\Meritsios-2.0\Meritsios-2.0
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Cruze/source/repos/Meritsios-2.0/Meritsios-2.0/Pages/Feed/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmVlZFxEYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Cruze/source/repos/Meritsios-2.0/Meritsios-2.0/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -30,6 +34,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Cruze/source/repos/Meritsios-2.0/Meritsios-2.0/Pages/Users/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Cruze/source/repos/Meritsios-2.0/Meritsios-2.0/Pages/Users/EditUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcRWRpdFVzZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Cruze/source/repos/Meritsios-2.0/Meritsios-2.0/Pages/Users/ListUsers.cshtml]

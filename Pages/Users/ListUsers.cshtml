@@ -28,7 +28,7 @@
                         <td>@user.Email</td>
                         <td>@user.Location</td>
                         <td>
-                            <a class="btn btn-secondary">Edit</a>
+                            <a href="/users/edituser/@user.Id" class="btn btn-secondary">Edit</a>
                         </td>
                     </tr>
                     }
@@ -41,7 +41,7 @@
         
     </table>
     <div class="mb-3">
-        <button class="btn btn-secondary">Lägg till användare</button>
+        <a href="/users/add" class="btn btn-secondary">Lägg till användare</a>
     </div>
 
 </div>
